@@ -3,7 +3,6 @@ package Intro;
 public class IncrementByFiveTraditional implements IncrementByFiveInterface {
 
     public Integer incrementByFive(int a) {
-        // TODO Auto-generated method stub
         return a+5;
     }
     

@@ -40,7 +40,7 @@ public class CollectionsVsStreamsTest {
         this.namesStream.forEach(print);
     }
 
-    @DisplayName("Solo hay un cliclo de operacion por Stream")
+    @DisplayName("Solo hay un click de operacion por Stream")
     @Test
     void foreach() {
         Stream<String> namesStream = this.names.stream();
